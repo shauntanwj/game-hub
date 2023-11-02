@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+## Game Hub (Programming with Mosh)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GameHub is an web application designed for discovering video games, assisting users in locating fresh and captivating titles to enjoy. With GameHub, you have the capability to search for games based on factors such as platform, genre, and additional criteria.
 
-Currently, two official plugins are available:
+This is one of the first few projects that I've build using **React.js** and **Typescript** by following Mosh Hamedani's Ultimate React course on youtube.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+To get started with GameHub, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Clone this repository to your local machine.
+- Run npm install to install the required dependencies.
+- Get a RAWG API key at https://rawg.io/apidocs. 
+- You'll have to create an account first.
+- Add the API key to src/services/api-client.ts
+- Run npm run dev to start the web server.
+  
+## Demo
 
-- Configure the top-level `parserOptions` property like this:
+Click [here](https://game-hub-shaun-tan.vercel.app/) to see the full running website. 
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Acknowledgements
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+ - [Ultimate React Course Youtube](https://www.youtube.com/watch?v=SqcY0GlETPk&ab_channel=ProgrammingwithMosh)
+ - [Full React Course](https://codewithmosh.com/)
+ 
+
