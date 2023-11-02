@@ -1,8 +1,8 @@
 ## Game Hub (Programming with Mosh)
 
-GameHub is an web application designed for discovering video games, assisting users in locating fresh and captivating titles to enjoy. With GameHub, you have the capability to search for games based on factors such as platform, genre, and additional criteria.
+GameHub is a web application designed for discovering video games, assisting users in locating fresh and captivating titles to enjoy. With GameHub, you have the capability to search for games based on factors such as platform, genre, and additional criteria.
 
-This is one of the first few projects that I've build using **React.js** and **Typescript** by following Mosh Hamedani's Ultimate React course on youtube.
+This is one of the first few projects that I've build using **React.js** and **Typescript** in **Vite** by following Mosh Hamedani's Ultimate React course on youtube.
 
 ## Installation
 
